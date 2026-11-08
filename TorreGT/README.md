@@ -11,14 +11,19 @@ Aplicación de consola en Java que administra los dispositivos de las oficinas d
 
 ## Cómo compilar y ejecutar
 
-Desde la carpeta que contiene los archivos `.java`:
+Desde la carpeta `TorreGT`:
 
 ```bash
-javac -encoding UTF-8 *.java
-java main
+javac -encoding UTF-8 -d bin src/*.java
+java -cp bin main
 ```
 
 ## Estructura
+
+- `src/`: código fuente Java.
+- `bin/`: archivos `.class` compilados.
+
+Los archivos siguientes se encuentran en `src/`.
 
 | Archivo | Descripción |
 |---|---|
